@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/myRoom/myRoom",
+    "pages/shop/shop",
+
+
+    "pages/my/my",
+    "pages/logout/logout",
+    "pages/account/account",
+    "pages/location/location",
+    "pages/order/order",
+    "pages/coupon/coupon",
+    "pages/liveLog/liveLog",
+    "pages/exchange/exchange",
+    "pages/spread/spread",
+    "pages/phone/phone"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "小屋智能公寓",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#DAA520",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/indexs.png",
+        "iconPath": "images/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/rooms.png",
+        "iconPath": "images/room.png",
+        "pagePath": "pages/myRoom/myRoom",
+        "text": "智能家居"
+      },
+      {
+        "selectedIconPath": "images/shops.png",
+        "iconPath": "images/shop.png",
+        "pagePath": "pages/shop/shop",
+        "text": "积分商城"
+      },
+      {
+        "selectedIconPath": "images/mys.png",
+        "iconPath": "images/my.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  }
+}
