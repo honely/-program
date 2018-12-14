@@ -14,20 +14,28 @@
     "pages/my/my",
     "pages/logout/logout",
     "pages/account/account",
-    "pages/location/location",
+    
     "pages/order/order",
     "pages/coupon/coupon",
     "pages/liveLog/liveLog",
     "pages/exchange/exchange",
     "pages/spread/spread",
-    "pages/phone/phone"
+    "pages/phone/phone",
+
+
+    "pages/apis/apis",
+    "pages/location/location",
+    "pages/search/search",
+    "pages/suggestion/suggestion",
+    "pages/regeocoding/regeocoding",
+    "pages/weather/weather"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarBackgroundColor": "#DAA520",
     "navigationBarTitleText": "小屋智能公寓",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "color": "#a9b7b7",

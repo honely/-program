@@ -45,7 +45,11 @@ Page({
       })
     }
   },
-
+  makeCall : function(){
+    wx.makePhoneCall({
+      phoneNumber: '1340000' // 仅为示例，并非真实的电话号码
+    })
+  },
   onGetOpenid: function() {
     // 调用云函数
     wx.cloud.callFunction({

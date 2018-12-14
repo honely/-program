@@ -1,0 +1,49 @@
+
+
+
+
+   <!--周边检索 -->
+  <view>
+    <navigator url="../search/search" open-type="navigate" class="uploader-text">
+      <text>周边检索</text>
+    </navigator>
+  </view>
+
+  
+
+   <!--Place Suggestion API -->
+  <view>
+    <navigator url="../suggestion/suggestion" open-type="navigate" class="uploader-text">
+      <text>Place Suggestion API</text>
+    </navigator>
+  </view>
+
+
+
+
+   <!--G地址解析部分 -->
+  <view>
+    <navigator url="../regeocoding/regeocoding" open-type="navigate" class="uploader-text">
+      <text>逆地址解析部分</text>
+    </navigator>
+  </view>
+
+  
+
+   <!--天气 -->
+  <view>
+    <navigator url="../weather/weather" open-type="navigate" class="uploader-text">
+      <text>天气</text>
+    </navigator>
+  </view>
+ 
+
+   <!--获取经纬度 -->
+  <view>
+    <navigator url="../location/location" open-type="navigate" class="uploader-text">
+      <text>获取经纬度</text>
+    </navigator>
+  </view>
+
+
+

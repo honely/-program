@@ -1,2 +1,6 @@
-<!--pages/location/location.wxml-->
-<text>pages/location/location.wxml</text>
+<view>  
+    <viwe>经度：{{longitude}}</viwe>  
+    <view>纬度：{{latitude}}</view>  
+    <view>地址：{{address}}</view>  
+    <view>城市：{{cityInfo.city}}</view>  
+</view> 

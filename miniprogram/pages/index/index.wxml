@@ -41,9 +41,12 @@
   </view>
     <!-- 新建云函数 -->
   <view class="uploader">
-    <navigator url="../my/my" open-type="navigate" class="uploader-text">
-      <text>个人中心</text>
-    </navigator>
+      <button open-type='contact'>个人中心</button>
+  </view>
+
+    <!-- 新建云函数 -->
+  <view class="uploader">
+      <button bindtap='makeCall'>拨打电话</button>
   </view>
 
 </view>
