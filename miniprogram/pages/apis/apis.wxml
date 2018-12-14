@@ -5,7 +5,7 @@
    <!--周边检索 -->
   <view>
     <navigator url="../search/search" open-type="navigate" class="uploader-text">
-      <text>周边检索</text>
+      <text>周边检索123123</text>
     </navigator>
   </view>
 
