@@ -8,12 +8,19 @@
     "pages/deployFunctions/deployFunctions",
     "pages/chooseLib/chooseLib",
     "pages/myRoom/myRoom",
-    "pages/shop/shop",
 
+
+    "pages/shop/shop",
+    "pages/detail/detail",
 
     "pages/my/my",
     "pages/logout/logout",
     "pages/account/account",
+    "pages/withdraw/withdraw",
+    "pages/withlogs/withlogs",
+    "pages/address/address",
+    "pages/newAddress/newAddress",
+    "pages/eidtAddress/eidtAddress",
     
     "pages/order/order",
     "pages/coupon/coupon",

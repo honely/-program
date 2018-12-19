@@ -1,1 +1,56 @@
 /* pages/shop/shop.wxss */
+.shopList{
+  overflow: hidden;
+  display: block;
+}
+.shop{
+  float: left;
+  margin: 5px;
+  display: block;
+  width: 47%;
+  height: 370rpx;
+}
+.mini-btn{
+    width: 100%;
+}
+.desc{
+    font-size: 14px;
+    width: 100%;
+    height: 42rpx;
+    color: #707070;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    }
+.shopimg{
+  width: 100%;
+  height: 250rpx;
+}
+navigator-hover {
+  color: blue;
+}
+/** 自定义其他点击态样式类 **/
+
+.extext{
+    width: 100%;
+    height: 80rpx;
+    margin-left: 2rpx;
+    color: #707070;
+    font-size: 12px;
+    overflow: hidden;
+    line-height: 58rpx;
+}
+.exNum{
+    color: crimson;
+    font-size: 18px;
+    padding-right: 8rpx;
+    float: left;
+}
+.jifen{
+     float: left;
+}
+.imgs{
+    height: 50rpx;
+    float: right;
+}

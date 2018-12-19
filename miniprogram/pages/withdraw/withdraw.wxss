@@ -1,0 +1,5 @@
+/* pages/withdraw/withdraw.wxss */
+.weui-btn{
+    background-color: #daa520;
+    color: white;
+}

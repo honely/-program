@@ -1,2 +1,34 @@
-<!--pages/account/account.wxml-->
-<text>pages/account/account.wxml</text>
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">500.00元</view>
+        <view class="page__desc">余额</view>
+    </view>
+    <view class="page__bds">
+        <view class="weui-flex">
+            <view class="weui-flex__item flex__items" bindtap='withdraw'><view class="placeholder">申请提现</view></view>
+            <view class="weui-flex__item" bindtap='withlogs'><view class="placeholder">提现记录</view></view>
+        </view>
+    </view>
+    <view class="weui-panel weui-panel_access">
+        <view class="weui-panel__bd">
+            <view class="weui-media-box weui-media-box_text">
+                <view class="weui-media-box__title weui-media-box__title_in-text">支付押金
+                <view class="changeNum">+300.00元</view>
+                </view>
+                <view class="weui-media-box__desc">2018-12-18 12:12:12</view>
+            </view>
+            <view class="weui-media-box weui-media-box_text">
+                <view class="weui-media-box__title weui-media-box__title_in-text">微信充值
+                <view class="changeNum">+200.00元</view>
+                </view>
+                <view class="weui-media-box__desc">2018-12-18 12:12:12</view>
+            </view>
+            <view class="weui-media-box weui-media-box_text">
+                <view class="weui-media-box__title weui-media-box__title_in-text">用户提现
+                <view class="changeNum">-100.00元</view>
+                </view>
+                <view class="weui-media-box__desc">2018-12-18 12:12:12</view>
+            </view>
+        </view>
+    </view>
+</view>

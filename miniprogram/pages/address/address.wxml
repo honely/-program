@@ -1,0 +1,27 @@
+<view class="page">
+    <view class="weui-panel weui-panel_access">
+        <view class="weui-panel__bd">
+
+            <view class="weui-media-box weui-media-box_text">
+                <view class="weui-media-box__title weui-media-box__title_in-text">夜微凉：18220995991
+                    <view class='editIcon' bindtap='editAdd'>
+                        <image class='editImg' src='../../images/edit.png'></image>
+                    </view>
+                </view>
+                <view class="weui-media-box__desc">陕西省西安市雁塔区沣惠南路泰华金贸国际7号楼2401</view>
+            </view>
+            <view class="weui-media-box weui-media-box_text">
+                <view class="weui-media-box__title weui-media-box__title_in-text">夜微凉：18220995991
+                    <view class='editIcon' bindtap='editAdd'>
+                        <image class='editImg' src='../../images/edit.png'></image>
+                    </view>
+                </view>
+                <view class="weui-media-box__desc">陕西省西安市雁塔区沣惠南路泰华金贸国际7号楼2401</view>
+            </view>
+    
+        </view>
+    </view>
+    <view class='btm'>
+        <button class="weui-btn" bindtap='newAdd' style='background-color: #Daa520; color:white;'>新增收货地址</button>
+    </view>
+</view>

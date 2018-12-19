@@ -47,10 +47,6 @@ page {
   background-color: white;
 }
 
-.userinfo-avatar:after {
-  border: none;
-}
-
 .userinfo-nickname {
   font-size: 32rpx;
   color: #007aff;
@@ -151,4 +147,7 @@ page {
   font-size: 24rpx;
   line-height: 36rpx;
   word-break: break-all;
+}
+.border-right{
+    border-right: 1px solid #999;
 }

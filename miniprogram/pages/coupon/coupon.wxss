@@ -1,1 +1,35 @@
-/* pages/coupon/coupon.wxss */
+/* pages/exchange/exchange.wxss */
+.weui-flex{
+    overflow: hidden;
+}
+.weui-flex__item{
+    margin: 5px;
+    margin-left: 20rpx;
+    padding: 0 10px 0 0;
+    text-align: center;
+    height: 2.3em;
+    line-height: 2.3em;
+    float: left;
+}
+.border-right{
+     border-right: 1px solid #ccc;
+}
+.page__bd{
+    padding-bottom: 0px;
+}
+.changeNum{
+    color: red;
+    float: right;
+    font-size: 36rpx;
+}
+.weui-panel{
+    margin-top: 0px;
+}
+.page__hd{
+    background: -moz-linear-gradient(top, #Daa520 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#Daa520), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(top, #Daa520 0%,#ffffff 100%);
+    background: -o-linear-gradient(top, #Daa520 0%,#ffffff 100%);
+    background: -ms-linear-gradient(top, #Daa520 0%,#ffffff 100%);
+    background: linear-gradient(to bottom, #Daa520 0%,#ffffff 100%); 
+}

@@ -29,12 +29,73 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 9,
 			"list": [
 				{
 					"id": -1,
 					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide"
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "积分商城",
+					"pathName": "pages/shop/shop",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "商品详情",
+					"pathName": "pages/detail/detail",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "个人中心",
+					"pathName": "pages/my/my",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": 4,
+					"name": "收货地址",
+					"pathName": "pages/address/address",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "新增收货地址",
+					"pathName": "pages/newAddress/newAddress",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "编辑收货地址",
+					"pathName": "pages/eidtAddress/eidtAddress",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": 7,
+					"name": "我的积分",
+					"pathName": "pages/exchange/exchange",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的余额",
+					"pathName": "pages/account/account",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "零钱提现",
+					"pathName": "pages/withdraw/withdraw",
+					"query": ""
 				}
 			]
 		}

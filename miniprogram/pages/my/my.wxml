@@ -12,18 +12,18 @@
             </view>
             <view class="weui-flex">
             <view class="weui-flex__item">
-              <navigator url="/pages/account/account">
+              <navigator class='border-right' url="/pages/account/account">
                 <view class='money'>2758.00</view>
                 <view class="exm">余额</view>
               </navigator>
             </view>
-            <view class="weui-flex__item lines">
-              <navigator url="/pages/exchange/exchange">
+            <view class="weui-flex__item">
+              <navigator class='border-right' url="/pages/exchange/exchange">
                 <view class='money'>598</view>
                 <view class='exm'>积分</view>
               </navigator>
             </view>
-            <view class="weui-flex__item lines">
+            <view class="weui-flex__item">
               <navigator url="/pages/coupon/coupon">
                 <view class='money'>3</view>
                 <view class='exm'>优惠券</view>
@@ -38,13 +38,17 @@
                 <view class="weui-cell__bd">我的订单</view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
             </navigator>
-            <navigator url="/pages/location/location" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+
+
+            <navigator url="/pages/address/address" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
                 <view class="weui-cell__hd">
                     <image src="../../images/local.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
                 </view>
                 <view class="weui-cell__bd">收货地址</view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
             </navigator>
+
+
             <navigator url="/pages/liveLog/liveLog" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
                 <view class="weui-cell__hd">
                     <image src="../../images/log.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
@@ -66,7 +70,6 @@
                 <view class="weui-cell__bd">手机绑定</view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
             </navigator>
-
             <navigator url="/pages/apis/apis" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
                 <view class="weui-cell__hd">
                     <image src="../../images/phone.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>

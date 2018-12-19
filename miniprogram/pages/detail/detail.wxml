@@ -1,0 +1,24 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-article">
+        <view class="weui-article__imgs">
+            <image class="weui-article__img" src='../../images/bg.png' mode="aspectFit" />
+        </view>
+        <view class="weui-article__h1">
+            <view class='proTitle'>那么对于你的目标客户，你要如何营造亲切感...
+            </view>
+            <view class='shareIcon'>
+                <button class='shareBtn' open-type='share'>
+                    <image class='shareImg' src='../../images/share.png'></image>
+                </button>
+            </view>
+        </view>
+            <view class="weui-article__section">
+                <view class="weui-article__p">
+                    那么对于你的目标客户，你要如何营造亲切感呢？跟Everlane使用一样的词汇绝对是不可行的。你需要了解自己的目标客户的日常用语，比如留意目标客户在产品review中、在论坛中经常使用的词汇，将这些词总结出来，再应用到产品描述中，这样你的产品描述对你的目标顾客会有一种天然的吸引力。你会发现，Patagonia的产品描述中含有许多户外行业术语，这是许多电商企业所回避的，因为他们担心过于高深的专业术语会吓跑客户。但对于Patagonia这样的小众行业的公司来说，行业术语的使用反而帮助他们吸引了更多的顾客，因为“burliest”（结实的）、“ long days on the wall”这类与实际使用相关的专业描述，贴近消费者的生活，能让消费者感受到Patagonia的诚意，愿意去信者这一个品牌，并购买他们的产品。
+                </view>
+                <button class="weui-btn" bindtap='exchange' style='background-color: #Daa520; color:white;'>立即兑换</button>
+            </view>
+        </view>
+    </view>
+</view>

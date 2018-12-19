@@ -1,0 +1,14 @@
+/* pages/address/address.wxss */
+.btm{
+    margin-top: 8rpx;
+    padding: 20rpx;
+}
+.editIcon{
+    width: 50rpx;
+    float: right;
+    height: 50rpx;
+}
+.editImg{
+    width: 50rpx;
+    height: 50rpx;
+}
