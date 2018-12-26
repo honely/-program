@@ -33,3 +33,17 @@
     background: -ms-linear-gradient(top, #Daa520 0%,#ffffff 100%);
     background: linear-gradient(to bottom, #Daa520 0%,#ffffff 100%); 
 }
+.mini-btn{
+    float: right;
+}
+.mini-take{
+    background-color: #Daa520;
+    color: white;
+}
+.mini-use{
+    background-color: rgb(204, 88, 80);
+    color: white;
+}
+.middle-box{
+    background-color: #ccc;
+}

@@ -16,6 +16,7 @@
     "pages/my/my",
     "pages/logout/logout",
     "pages/account/account",
+    "pages/accdetail/accdetail",
     "pages/withdraw/withdraw",
     "pages/withlogs/withlogs",
     "pages/address/address",
@@ -31,6 +32,14 @@
 
 
     "pages/apis/apis",
+    "pages/audio/audio",
+    "pages/video/video",
+    "pages/image/image",
+    "pages/camera/camera",
+    "pages/open-data/open-data",
+
+
+    
     "pages/location/location",
     "pages/search/search",
     "pages/suggestion/suggestion",
