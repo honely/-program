@@ -1,9 +1,37 @@
-.swipers{
+siwper{
   width:100%;
-  height: 350rpx;
+  height: 340rpx;
 }
-.swipers image{
+swiper image{
   display: block;
   width: 100%;
   height: 100%;
+}
+/* 顶部的icons */
+
+.icons_items {
+    width:100%;
+    height:230rpx;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.icons_item {
+  width: 30%;
+  height:86%;
+  display: flex;
+  flex-flow: column;
+}
+
+.icons_img {
+  width: 100%;
+  height: 75%;
+}
+
+.icons_text {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  font-size: 28rpx;
 }

@@ -29,7 +29,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 11,
+			"current": 12,
 			"list": [
 				{
 					"id": -1,
@@ -106,7 +106,13 @@
 				{
 					"id": -1,
 					"name": "我的订单",
-					"pathName": "pages/order/order"
+					"pathName": "pages/order/order",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "小屋智能公寓",
+					"pathName": "pages/index/index"
 				}
 			]
 		}

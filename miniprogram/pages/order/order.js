@@ -2,10 +2,7 @@ var sliderWidth = 96; // 需要设置slider的宽度，用于计算中间位置
 
 Page({
   data: {
-    tabs: ["未支付", "已支付", "已完成"],
-    activeIndex: 0,
-    sliderOffset: 0,
-    sliderLeft: 0
+    
   },
   onLoad: function () {
     var that = this;
@@ -19,9 +16,6 @@ Page({
     });
   },
   tabClick: function (e) {
-    this.setData({
-      sliderOffset: e.currentTarget.offsetLeft,
-      activeIndex: e.currentTarget.id
-    });
+   
   }
 });
