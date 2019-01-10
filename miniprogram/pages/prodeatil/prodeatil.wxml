@@ -1,0 +1,142 @@
+<!-- titles -->
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-article">
+            <view class="weui-article__imgs">
+                <swiper
+                    autoplay="{{autoplay}}"
+                    interval="{{interval}}"
+                    duration="{{duration}}"
+                    style='height: 261px' 
+                >
+                    <block wx:for="{{imgUrls}}">
+                        <swiper-item>
+                        <image src="{{item}}" class="slide-image" />
+                        </swiper-item>
+                    </block>
+                </swiper>
+            </view>
+            <view class="weui-article__h1">
+                <view class='proTitle'>天润佳苑 两室一厅一卫整租
+                </view>
+                <view class='shareIcon'>
+                    <button class='shareBtn' open-type='share'>
+                        <image class='shareImg' src='../../images/share.png'></image>
+                    </button>
+                </view>
+            </view>
+            <!--  房客评价-->
+            <view class="weui-article__section">
+                <view class='comment-title'>
+                    <view class='bot-btn comment'>房客评价</view>
+                    <view class='bot-btn score'>评分5.0 完美</view>
+                </view>
+                <view class="weui-article__p">
+                    那么对于你的目标客户，你要如何营造亲切感呢？跟Everlane使用一样的词汇绝对是不可行的。你需要了解自己的目标客户的日常用语...
+                </view>
+                <view class='com-imgs'>
+                    <image class='com-img' src="../../images/001.png"></image>
+                    <image class='com-img' src="../../images/002.png"></image>
+                    <image class='com-img' src="../../images/003.png"></image>
+                    <image class='com-img' src="../../images/004.png"></image>
+                </view>
+                <view class='com-info'>
+                    <view class='comment-info'>
+                        <image class='atavar' src="../../images/001.png"></image>
+                        <view class='comm user-name'>夜微凉</view>
+                        <view class='comm'>|</view>
+                        <view class='comm rent-time'>2018年12月入住</view>
+                    </view>
+                </view>
+                <button class='more-comment' bindtap='comment'>查看全部12条</button>
+            </view>
+            <!--  房客评价-->
+            <view class='kong'>
+            </view>
+            <!--  房源信息-->
+            <view class="weui-article__section">
+                <view class='comment-title'>
+                    <view class='bot-btn comment'>房源介绍</view>
+                </view>
+                <view class="weui-article__p">
+                    那么对于你的目标客户，你要如何营造亲切感呢？跟Everlane使用一样的词汇绝对是不可行的。你需要了解自己的目标客户的日常用语...
+                </view>
+                <view class="weui-article__p">
+                    那么对于你的目标客户，你要如何营造亲切感呢？跟Everlane使用一样的词汇绝对是不可行的。你需要了解自己的目标客户的日常用语...
+                </view>
+                <button class='more-comment' bindtap='moredesc'>查看全部</button>
+            </view>
+            <!--  房源信息-->
+            <view class='kong'>
+            </view>
+            <!--  房屋配置-->
+            <view class="weui-article__section">
+                <view class='comment-title'>
+                    <view class='bot-btn comment'>房屋配置</view>
+                </view>
+                <view class='com-imgs'>
+                    <image class='config-img' src="../../images/001.png"></image>
+                    <image class='config-img' src="../../images/002.png"></image>
+                    <image class='config-img' src="../../images/003.png"></image>
+                    <image class='config-img' src="../../images/004.png"></image>
+                    <image bindtap='moreconfig' class='config-img' src="../../images/more.png"></image>
+                </view>
+            </view>
+            <!--  房屋配置-->
+            <view class='kong'>
+            </view>
+
+            <!--  入住时间-->
+            <view class="weui-article__section">
+                <view class='comment-title'>
+                    <view class='bot-btn comment'>入住时间</view>
+                </view>
+                <view class="rent-times">
+                    <picker class="weui-btn" mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+                        <view class='start-time'>
+                            2019年1月10日
+                        </view>
+                    </picker>
+                    
+                    <view class='vans'>
+                    ————
+                    </view>
+                    <picker class="weui-btn" mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+                        <view class='end-time'>
+                        2019年1月11日
+                        </view>
+                    </picker>
+                    
+                </view>
+            </view>
+            <!--  入住时间-->
+
+            <view class='kong'>
+            </view>
+            <!--  房源地址-->
+            <view class="weui-article__section map-view">
+                <view class='comment-title'>
+                    <view class='bot-btn comment'>房源位置</view>
+                    <view class='bot-btn score'>导航去这</view>
+                </view>
+                <map id='map' class='map'
+                    longitude="108.886737"
+                    latitude="34.224702"
+                    scale="14"
+                    markers="{{markers}}"
+                ></map>
+            </view>
+            <!-- 房源地址-->
+        </view>
+        <cover-view class='bottom-btn'>
+            <cover-view class='bot-btn service'>
+                <button class='contact-btn' open-type='contact'>
+                    咨询客服
+                </button>
+            </cover-view>
+            <cover-view class='bot-btn order' bindtap='toOrder'>
+                立即预定
+            </cover-view>
+        </cover-view>
+    </view>
+</view>

@@ -1,0 +1,114 @@
+.comments{
+    padding: 30rpx;
+    height: 250rpx;
+    display: block;
+}
+.comment-title{
+    display: block;
+    height: 64rpx;
+}
+.comment{
+    float: left;
+    font-size: 37rpx;
+    display: block;
+    font-weight: bolder;
+}
+.score{
+     float: right;
+     color: #707070;
+     font-size: 23rpx;
+}
+.bot-btn{
+    height: 58rpx;
+    display: block;
+}
+.rate{
+    color: #daa520;
+}
+.com-type{
+    display: block;
+    height: 100rpx;
+    color: rgb(87, 85, 85);
+}
+.type-name{
+    float: left;
+    font-size: 28rpx;
+    width: 20%;
+    text-align: center;
+}
+.com-type{
+    margin-top: 8rpx;
+}
+.user-comment{
+    margin-top: 30rpx;
+}
+.user-info{
+    width: 100%;
+    height: 100rpx;
+}
+.user{
+    width: 49%;
+}
+.user-left{
+    width: 59%;
+    float: left;
+    text-align: left;
+    line-height: 80rpx;
+}
+.user-right{
+    width: 40%;
+    text-align: center;
+    line-height: 80rpx;
+    color: #707070;
+    float: right;
+}
+.avatar{
+    width: 70rpx;
+    float: left;
+    height: 70rpx;
+}
+.atavars{
+    margin-left: 20rpx;
+    width: 70rpx;
+    height: 70rpx;
+    border-radius: 70rpx;
+}
+.nickname{
+    float: left;
+    height: 70rpx;
+    width: 120rpx;
+    margin-left: 50rpx;
+    font-size: 26rpx;
+}
+.rent-time{
+    padding-right: 7rpx;
+    text-align: right;
+    font-size: 26rpx;
+}
+.contents{
+    margin-left: 100rpx;
+    margin-right: 10rpx;
+    color: #707070;
+    font-size: 27rpx;
+    margin-bottom: 30rpx;
+}
+.comment-content{
+    margin-top: 40rpx;
+}
+.reply{
+    margin-top: 30rpx;
+    background-color: #ccc;
+    padding: 30rpx;
+    border-radius: 10rpx;
+}
+.hr{
+    border-bottom: 1rpx solid #ccc;
+}
+.more-btn{
+    padding: 50rpx;
+}
+.btn{
+    background-color: #daa520;
+    color: white;
+    border-radius: 1rpx;
+}

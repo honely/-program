@@ -10,7 +10,7 @@
 	},
 	"appid": "wxa96f729f2e409b36",
 	"projectname": "%E5%B0%8F%E5%B1%8B%E6%99%BA%E8%83%BD%E5%85%AC%E5%AF%93",
-	"libVersion": "2.4.2",
+	"libVersion": "2.4.3",
 	"compileType": "miniprogram",
 	"condition": {
 		"search": {
@@ -29,7 +29,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 12,
+			"current": 19,
 			"list": [
 				{
 					"id": -1,
@@ -112,7 +112,50 @@
 				{
 					"id": -1,
 					"name": "小屋智能公寓",
-					"pathName": "pages/index/index"
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "房源详情",
+					"pathName": "pages/prodeatil/prodeatil",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "确认订单",
+					"pathName": "pages/preorder/preorder",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "预付订单",
+					"pathName": "pages/preorder/preorder",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "推广返现",
+					"pathName": "pages/spread/spread",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "租客评论",
+					"pathName": "pages/comment/comment",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "房屋配置",
+					"pathName": "pages/moreconfig/moreconfig",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "房源介绍",
+					"pathName": "pages/moredesc/moredesc"
 				}
 			]
 		}

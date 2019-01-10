@@ -117,3 +117,7 @@
         <button bindtap='report'>数据分析</button>
     </view>
 
+     <view>
+        <button bindtap='getuserinfgo'>获取用户信息</button>
+    </view>
+

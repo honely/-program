@@ -1,1 +1,5 @@
 /* pages/spread/spread.wxss */
+.imgs{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}

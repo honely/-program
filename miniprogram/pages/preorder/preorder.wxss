@@ -1,0 +1,74 @@
+/* pages/prodeatil/prodeatil.wxss */
+.bottom-btn {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 100rpx;
+    color: white;
+    line-height: 100rpx;
+}
+.bot-btn{
+    float: left;
+}
+.order{
+    width: 35%;
+    color: white;
+    height: 100rpx;
+    line-height: 100rpx;
+    background-color: #daa520;
+}
+.service{
+    width: 65%;
+}
+.contact-btn{
+    color: #daa520;
+    background-color: white;
+}
+button::after {
+    border: none;
+}
+button {
+    height: 100rpx;
+    border-radius:0px;
+    background-color: white;
+}
+.weui-media-box__desc{
+    height: 70rpx;
+    line-height:70rpx;
+}
+.desc{
+    height: 70rpx;
+    float: left;
+    overflow: hidden;
+    width: 15%;
+    padding: 10rpx;
+    color: #ccc;
+    background-color: #daa520;
+}
+/* 入住时间 */
+.pad-form{
+    padding: 20rpx 20rpx 20rpx 20rpx;
+    color: #707070;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    height: 150rpx;
+    /* background-color: pink; */
+    overflow: hidden;
+}
+.start-time{
+    float: left;
+}
+.end-time{
+    float: right;
+}
+.flost{
+    width: 39%;
+    padding: 40rpx;
+    text-align: center;
+}
+.rent-date{
+    color: #daa520;
+    font-weight: bolder;
+    font-size: 22px;
+}

@@ -35,3 +35,46 @@ swiper image{
   text-align: center;
   font-size: 28rpx;
 }
+
+.title{
+    margin-left: 10rpx;
+    color: rgb(94, 94, 94);
+    font-weight: bolder;
+    padding: 2rpx;
+}
+.hotPro{
+   width: 100%;
+}
+.pro{
+    width: 46%;
+    margin: 1rpx;
+    padding: 12rpx;
+    float: left;
+}
+.imgs{
+    width: 100%;
+    height: 221rpx;
+    margin-bottom:10px;
+    border-radius: 20rpx;
+}
+.proTitle{
+    color: rgb(94, 94, 94);
+    font-weight: bolder;
+}
+.proDesc{
+    font-size: 25rpx;
+    color: rgb(94, 94, 94);
+}
+.price{
+    color: red;
+    font-weight: bolder;
+}
+.btn{
+    padding: 15rpx;
+}
+.moreBtn{
+    background-color:#daa520;
+    color: #F8F8F8;
+    height: 73rpx;
+    line-height: 73rpx;
+}

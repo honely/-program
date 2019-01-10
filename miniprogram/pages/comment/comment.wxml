@@ -1,0 +1,129 @@
+<!-- 租客评论 -->
+<view class='comments'>
+    <view class='comment-title'>
+        <view class='bot-btn comment'>好评率
+            <text class='rate'>100%</text>
+        </view>
+        <view class='bot-btn score'>56条评价 | 5.0分</view>
+    </view>
+    <!-- comment class -->
+    <view class='com-type'>
+        <view class='type-name'>
+            <view class='evn'>环境</view>
+            <view class='evn-score'>5.0分</view>
+        </view>
+        <view class='type-name'>
+            <view class=''>服务</view>
+            <view class=''>5.0分</view>
+        </view>
+        <view class='type-name'>
+            <view class=''>卫生</view>
+            <view class=''>5.0分</view>
+        </view>
+        <view class='type-name'>
+            <view class=''>性价比</view>
+            <view class=''>5.0分</view>
+        </view>
+        <view class='type-name'>
+            <view class=''>交通</view>
+            <view class=''>5.0分</view>
+        </view>
+    </view>
+
+    <!-- user-comment -->
+    <view class='user-comment'>
+
+
+
+        <view class='comment-content'>
+            <view class='user-info'>
+                <view class='user user-left'>
+                    <view class='avatar'>
+                        <image class='atavars' src="../../images/001.png"></image>
+                    </view>
+                    <view class='nickname'>
+                    131****5212
+                    </view>
+                </view>
+                <view class='user user-right rent-time'>
+                    2018.12.27
+                </view>
+            </view>
+            <view class='contents'>
+                <view class='text'>
+                    周边环境不错，房间非常干净生活用品齐全，设施配套到位让人有家的感觉，住着很温馨舒适，老板热情，服务人员也勤快，总是非常满意的一次体验。
+                </view>
+            </view>
+        </view>
+        <view class='hr'></view>
+        <view class='comment-content'>
+            <view class='user-info'>
+                <view class='user user-left'>
+                    <view class='avatar'>
+                        <image class='atavars' src="../../images/001.png"></image>
+                    </view>
+                    <view class='nickname'>
+                    131****5212
+                    </view>
+                </view>
+                <view class='user user-right rent-time'>
+                    2018.12.27
+                </view>
+            </view>
+            <view class='contents'>
+                <view class='text'>
+                    周边环境不错，房间非常干净生活用品齐全，设施配套到位让人有家的感觉，住着很温馨舒适，老板热情，服务人员也勤快，总是非常满意的一次体验。
+                </view>
+                <view class='reply'>
+                    <view>平台回复:</view>
+                    既然做家庭公寓，就要做的跟家一样。就要让各位觉得像是回到家里的感觉，期待您和家人的在此光临，在此祝愿你和家人身体健康，工作顺利，家庭幸福，生活美满！
+                </view>
+            </view>
+        </view>
+        <view class='hr'></view>
+        <view class='comment-content'>
+            <view class='user-info'>
+                <view class='user user-left'>
+                    <view class='avatar'>
+                        <image class='atavars' src="../../images/001.png"></image>
+                    </view>
+                    <view class='nickname'>
+                    131****5212
+                    </view>
+                </view>
+                <view class='user user-right rent-time'>
+                    2018.12.27
+                </view>
+            </view>
+            <view class='contents'>
+                <view class='text'>
+                    周边环境不错，房间非常干净生活用品齐全，设施配套到位让人有家的感觉，住着很温馨舒适，老板热情，服务人员也勤快，总是非常满意的一次体验。
+                </view>
+            </view>
+        </view>
+        <view class='hr'></view>
+         <view class='comment-content'>
+            <view class='user-info'>
+                <view class='user user-left'>
+                    <view class='avatar'>
+                        <image class='atavars' src="../../images/001.png"></image>
+                    </view>
+                    <view class='nickname'>
+                    131****5212
+                    </view>
+                </view>
+                <view class='user user-right rent-time'>
+                    2018.12.27
+                </view>
+            </view>
+            <view class='contents'>
+                <view class='text'>
+                    周边环境不错，房间非常干净生活用品齐全，设施配套到位让人有家的感觉，住着很温馨舒适，老板热情，服务人员也勤快，总是非常满意的一次体验。
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class='more-btn'>
+        <button class='btn'>点击加载更多</button>
+    </view>
+</view>

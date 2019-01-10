@@ -1,0 +1,124 @@
+<view>
+    <view class='config-body'>
+        <view class='con-title'>
+            居家
+        </view>
+        <view class='con-list'>
+            <view class='con'>
+                <view class='icon' style="background-image: url('https://www.xiaowugroup.com//public//uploads/20181220/6a3a62ae80f9f9c6e1f389e6b1c17ca8.jpg')">
+                </view>
+                <view class='text'>
+                    无线WIFI
+                </view>
+            </view>
+             <view class='con'>
+                <view class='icon' style="background-image: url('https://www.xiaowugroup.com//public//uploads/20181220/fadbfd7d0a193c9a99d6fd925026c181.jpg')">
+                </view>
+                <view class='text'>
+                    无线WIFI
+                </view>
+            </view>
+             <view class='con'>
+                <view class='icon' style="background-image: url('https://www.xiaowugroup.com//public//uploads/20181220/649bf51121898b6d25b08029d2032ae7.jpg')">
+                </view>
+                <view class='text'>
+                    个人中心
+                </view>
+            </view>
+             <view class='con'>
+                <view class='icon' style="background-image: url('https://www.xiaowugroup.com//public//uploads/20181220/414ab06ac1c1f006709107ed34903785.jpg')">
+                </view>
+                <view class='text'>
+                    无线WIFI
+                </view>
+            </view>
+             <view class='con'>
+                <view class='icon' style="background-image: url('https://www.xiaowugroup.com//public//uploads/20181220/0dbb8ac5343d8b0b8720a046ce71dc13.jpg')">
+                </view>
+                <view class='text'>
+                    无线WIFI
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='config-body'>
+        <view class='con-title'>
+            餐厨
+        </view>
+        <view class='con-list'>
+            <view class='con'>
+                <view class='icon' style="background-image: url('https://www.xiaowugroup.com//public//uploads/20181220/6a3a62ae80f9f9c6e1f389e6b1c17ca8.jpg')">
+                </view>
+                <view class='text'>
+                    无线WIFI
+                </view>
+            </view>
+             <view class='con'>
+                <view class='icon' style="background-image: url('https://www.xiaowugroup.com//public//uploads/20181220/fadbfd7d0a193c9a99d6fd925026c181.jpg')">
+                </view>
+                <view class='text'>
+                    无线WIFI
+                </view>
+            </view>
+             <view class='con'>
+                <view class='icon' style="background-image: url('https://www.xiaowugroup.com//public//uploads/20181220/649bf51121898b6d25b08029d2032ae7.jpg')">
+                </view>
+                <view class='text'>
+                    个人中心
+                </view>
+            </view>
+             <view class='con'>
+                <view class='icon' style="background-image: url('https://www.xiaowugroup.com//public//uploads/20181220/414ab06ac1c1f006709107ed34903785.jpg')">
+                </view>
+                <view class='text'>
+                    无线WIFI
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='config-body'>
+        <view class='con-title'>
+            洗浴
+        </view>
+        <view class='con-list'>
+            <view class='con'>
+                <view class='icon' style="background-image: url('https://www.xiaowugroup.com//public//uploads/20181220/6a3a62ae80f9f9c6e1f389e6b1c17ca8.jpg')">
+                </view>
+                <view class='text'>
+                    无线WIFI
+                </view>
+            </view>
+             <view class='con'>
+                <view class='icon' style="background-image: url('https://www.xiaowugroup.com//public//uploads/20181220/fadbfd7d0a193c9a99d6fd925026c181.jpg')">
+                </view>
+                <view class='text'>
+                    无线WIFI
+                </view>
+            </view>
+             <view class='con'>
+                <view class='icon' style="background-image: url('https://www.xiaowugroup.com//public//uploads/20181220/649bf51121898b6d25b08029d2032ae7.jpg')">
+                </view>
+                <view class='text'>
+                    个人中心
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='config-body'>
+        <view class='con-title'>
+            安全
+        </view>
+        <view class='con-list'>
+            <view class='con'>
+                <view class='icon' style="background-image: url('https://www.xiaowugroup.com//public//uploads/20181220/6a3a62ae80f9f9c6e1f389e6b1c17ca8.jpg')">
+                </view>
+                <view class='text'>
+                    无线WIFI
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,6 +1,14 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/prodeatil/prodeatil",
+    "pages/prolist/prolist",
+    "pages/preorder/preorder",
+    "pages/comment/comment",
+    "pages/moredesc/moredesc",
+    "pages/moreconfig/moreconfig",
+    "pages/deposit/deposit",
+  
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",

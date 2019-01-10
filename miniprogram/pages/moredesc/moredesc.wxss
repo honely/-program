@@ -1,0 +1,8 @@
+/* pages/moredesc/moredesc.wxss */
+.weui-article__p{
+    color:#707070;
+}
+.comment{
+    font-size: 32rpx;
+    font-weight: bold;
+}

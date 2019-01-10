@@ -1,0 +1,38 @@
+/* pages/moreconfig/moreconfig.wxss */
+.config-body{
+    padding: 30rpx;
+    /* background-color: pink; */
+}
+.con-title{
+    /* background-color: yellowgreen; */
+    width: 80%;
+    height: 80rpx;
+    line-height: 80rpx;
+    margin-left: 10rpx;
+    font-size: 41rpx;
+}
+.con-list{
+    margin-top: 30rpx;
+    display: block;
+    overflow: hidden;
+}
+.con{
+    width: 24.9%;
+    height: 200rpx;
+    float: left;
+    /* background-color: red; */
+}
+.icon{
+    padding: 15rpx;
+    margin: 14rpx;
+    width: 30%;
+    height: 40rpx;
+    margin: 0 auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.text{
+    margin-top: 17rpx;
+    color: #707070;
+    text-align: center;
+}

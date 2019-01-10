@@ -15,27 +15,27 @@
   </view>
   <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
 </view>
-<view>
 <!-- 顶部搜索 结束 -->
 
 <!-- 首页轮播 开始 -->
-<swiper
-  indicator-dots="{{indicatorDots}}"
-  autoplay="{{autoplay}}"
-  interval="{{interval}}"
-  duration="{{duration}}"
->
-  <block wx:for="{{imgUrls}}">
-    <swiper-item>
-      <image src="{{item}}" class="slide-image" width="355" height="150" />
-    </swiper-item>
-  </block>
-</swiper>
+<view>
+    <swiper
+    indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}"
+    interval="{{interval}}"
+    duration="{{duration}}"
+    >
+        <block wx:for="{{imgUrls}}">
+            <swiper-item>
+            <image src="{{item}}" class="slide-image" width="355" height="150" />
+            </swiper-item>
+        </block>
+    </swiper>
 </view>
 <!-- 中部导航 开始 -->
 <view class='icons_items'>
     <view class='icons_item' wx:for="{{icons_item}}" wx:key="{{index}}">
-      <image src="{{item.icon}}" class='icons_img'></image>
+      <image src="{{item.icon}}" bindtap='{{item.url}}' class='icons_img'></image>
       <view class='icons_text'>{{item.text}}</view>
     </view>
 </view>
@@ -44,3 +44,35 @@
 
 
 <!--热门房源 开始 -->
+
+<!--热门房源 开始 -->
+<view class='hotPro'>
+    <view class='title'>热门房源</view>
+    <view class='pro' bindtap='toDetails'>
+        <image class='imgs' src='../../images/001.png'></image>
+        <view class='proTitle'>三亚地中海热带风情浪漫两室一厅</view>
+        <view class='proDesc'>5.0分完美！123条评价|两居室</view>
+        <view class='price'>￥1580</view>
+    </view>
+    <view class='pro'>
+    <image class='imgs' src='../../images/002.png'></image>
+    <view class='proTitle'>三亚地中海热带风情浪漫两室一厅</view>
+        <view class='proDesc'>5.0分完美！123条评价|两居室</view>
+        <view class='price'>￥1580</view>
+    </view>
+    <view class='pro'>
+    <image class='imgs' src='../../images/003.png'></image>
+    <view class='proTitle'>三亚地中海热带风情浪漫两室一厅</view>
+        <view class='proDesc'>5.0分完美！123条评价|两居室</view>
+        <view class='price'>￥1580</view>
+    </view>
+    <view class='pro'>
+    <image class='imgs' src='../../images/004.png'></image>
+    <view class='proTitle'>三亚地中海热带风情浪漫两室一厅</view>
+        <view class='proDesc'>5.0分完美！123条评价|两居室</view>
+        <view class='price'>￥1580</view>
+    </view>
+</view>
+<view class='btn'>
+    <button bindtap='toList' class="moreBtn" >查看更多</button>
+</view>

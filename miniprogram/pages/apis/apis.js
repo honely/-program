@@ -61,10 +61,20 @@ Page({
                 }
             }
         })
-    }, report:function(){
+    }, 
+    report:function(){
         wx.reportAnalytics('purchase', {
             price: 120,
             color: 'red'
+        })
+    }, 
+    getuserinfgo:function(){
+        console.log(111);
+        wx.getUserInfo({
+            success(res) {
+                console.log(res);
+                console.log(Base64_Decode(res.encryptedData));
+            }
         })
     }
 })

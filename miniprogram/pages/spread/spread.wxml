@@ -1,2 +1,1 @@
-<!--pages/spread/spread.wxml-->
-<text>pages/spread/spread.wxml</text>
+<view class='imgs' style="height:100vh;width:100vw;background-image: url('http://blog.aiweimeng.top/usr/uploads/2019/01/2380830870.png');" catchlongpress='baocun'></view>

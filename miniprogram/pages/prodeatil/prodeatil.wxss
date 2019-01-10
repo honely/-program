@@ -1,0 +1,222 @@
+/* pages/prodeatil/prodeatil.wxss */
+siwper{
+  width:100%;
+  height: 351rpx !important;
+}
+swiper image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.weui-article__imgs{
+    width: 100%;
+    height: 252px;
+    padding: 0rpx;
+}
+
+.weui-article__img{
+    width: 100%;
+    height: 252px;
+}
+.weui-article{
+    padding: 0rpx;
+}
+.weui-article__h1
+{
+    color: #707070;
+    font-size: 30rpx;
+    margin-top: 30rpx;
+    margin-bottom:0;
+    overflow: hidden;
+}
+.weui-article__p{
+    color: #707070;
+}
+.weui-btn{
+    color: #Daa520;
+    background-color: #Daa520;
+}
+.weui-article__section{
+    padding: 20rpx 20rpx 0rpx 20rpx;
+    background-color: white;
+    margin-bottom:0em;
+}
+.shareImg{
+    width: 60rpx;
+    height: 60rpx;
+}
+.proTitle{
+    float: left;
+    color: #707070;
+    padding: 20rpx 20rpx;
+    font-size: 30rpx;
+    margin-bottom:0;
+    width:600rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    font-weight: bolder;
+}
+.shareIcon{
+    width: 100rpx;
+    height: 70rpx;
+    float: right;
+    margin-top: 13rpx;
+}
+.shareBtn{
+    padding-left:0rpx;
+    background: none;
+    box-sizing:border-box;
+    border: none;
+    width: 100rpx;
+    text-align: center;
+    line-height: 70rpx;
+    font-size: 30rpx;
+    color: #Daa520;
+    margin: 0 auto;
+    height:70rpx;
+
+}
+.shareBtn:after {
+  border: none;
+}
+.bottom-btn {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 100rpx;
+    color: white;
+    line-height: 100rpx;
+}
+.bot-btn{
+    float: left;
+}
+.order{
+    width: 65%;
+    height: 100rpx;
+    line-height:  100rpx;
+    color: white;
+    background-color: #daa520;
+}
+.service{
+    width: 35%;
+    height: 100rpx;
+}
+.contact-btn{
+    color: #daa520;
+    height: 100rpx;
+    line-height:  100rpx;
+    background-color: white;
+}
+button::after {
+    border: none;
+}
+button {
+    height: 100rpx;
+    border-radius:0px;
+    background-color: white;
+}
+.comment{
+    font-weight: bolder;
+    color: #707070;
+}
+.score{
+     float: right;
+     color: #daa520;
+}
+.comment-title{
+    display: block;
+    height: 58rpx;
+}
+.weui-article__p{
+    display: block;
+}
+.com-imgs{
+    width: 100%;
+    height: 180rpx;
+    display: block;
+}
+.com-img{
+    margin: 5rpx;
+    width: 23.8%;
+    height: 100%;
+    border-radius: 10rpx;
+}
+.more-comment{
+    margin-top: 26rpx;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    color: #daa520;
+    font-weight: lighter;
+    background-color:transparent;
+}
+.com-info{
+    width: 100%;
+    margin-top: 10rpx;
+    height:70rpx;
+}
+.comment-info{
+    float: right;
+    height: 80rpx;
+    width: 44%;
+    line-height: 80rpx;
+}
+
+.atavar{
+    margin-top: 30rpx;
+    height: 30rpx;
+    float: left;
+    border-radius: 30rpx;
+    width: 30rpx;
+}
+.comm{
+     margin: 10rpx;
+     float: left;
+     font-size: 20rpx;
+}
+.kong{
+    width: 100%;
+    height: 10rpx;
+}
+.map{
+    width: 100%;
+    height: 430rpx;
+    z-index: 1;
+}
+.map-view{
+    padding-bottom: 40rpx;
+}
+.config-img{
+    width: 18.8%;
+    margin: 5rpx;
+    height: 70%;
+    border-radius: 800rpx;
+}
+.rent-times{
+    width: 100%;
+    height: 100rpx;
+    line-height: 100rpx;
+   
+}
+.start-time{
+     width: 40%;
+     float: left;
+     height: 100%;
+     text-align: center;
+}
+.end-time{
+    width: 40%;
+    float: left;
+    height: 100%;
+     text-align: center;
+}
+.vans{
+ float: left;
+ width: 20%;
+ height: 100%;
+ text-align: center;
+}
