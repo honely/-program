@@ -1,0 +1,85 @@
+<!-- titles -->
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-panel weui-panel_access">
+            <!--  房源信息-->
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="../../images/001.png" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">钟鼓楼/泰和坊/永兴坊/回民街两居室钟鼓楼</view>
+                        <view class="weui-media-box__desc">
+                           入住时间：2019.1.11~2019.1.12
+                        </view>
+                    </view>,
+                </view>
+            </view>
+            <!-- 评分 -->
+            <view class='comm-body'>
+                <view class='comm-type'>
+                    <view class='comm title'>环境</view>
+                    <view class='comm star'>
+                        <image class='stars' src='../../images/stars.png'></image>
+                        <image class='stars' src='../../images/star.png'></image>
+                        <image class='stars' src='../../images/star.png'></image>
+                        <image class='stars' src='../../images/star.png'></image>
+                        <image class='stars' src='../../images/star.png'></image>
+                    </view>
+                </view>
+                <view class='comm-type'>
+                    <view class='comm title'>服务</view>
+                    <view class='comm star'>
+                        <image class='stars' src='../../images/stars.png'></image>
+                        <image class='stars' src='../../images/stars.png'></image>
+                        <image class='stars' src='../../images/star.png'></image>
+                        <image class='stars' src='../../images/star.png'></image>
+                        <image class='stars' src='../../images/star.png'></image>
+                    </view>
+                </view>
+                <view class='comm-type'>
+                    <view class='comm title'>卫生</view>
+                    <view class='comm star'>
+                        <image class='stars' src='../../images/stars.png'></image>
+                        <image class='stars' src='../../images/stars.png'></image>
+                        <image class='stars' src='../../images/stars.png'></image>
+                        <image class='stars' src='../../images/star.png'></image>
+                        <image class='stars' src='../../images/star.png'></image>
+                    </view>
+                </view>
+                <view class='comm-type'>
+                    <view class='comm title'>性价比</view>
+                    <view class='comm star'>
+                        <image class='stars' src='../../images/stars.png'></image>
+                        <image class='stars' src='../../images/stars.png'></image>
+                        <image class='stars' src='../../images/stars.png'></image>
+                        <image class='stars' src='../../images/stars.png'></image>
+                        <image class='stars' src='../../images/star.png'></image>
+                    </view>
+                </view>
+                <view class='comm-type'>
+                    <view class='comm title'>交通</view>
+                    <view class='comm star'>
+                        <image class='stars' src='../../images/stars.png'></image>
+                        <image class='stars' src='../../images/stars.png'></image>
+                        <image class='stars' src='../../images/stars.png'></image>
+                        <image class='stars' src='../../images/stars.png'></image>
+                        <image class='stars' src='../../images/stars.png'></image>
+                    </view>
+                </view>
+            </view>
+            <view class='comm-content'>
+                <textarea class='textarea' placeholder="来说说你的住房体验吧！" auto-focus/>
+            </view>
+            <view>
+                <button class='btn' bindtap="uploadimg">点击选择上传图</button>
+            </view>
+            <image src='{{source}}' style='width:600rpx; height:600rpx' />
+            <!-- 发布按钮 -->
+            <view class='more-btn'>
+                <button class='btn'>点击发布评论</button> 
+            </view>
+        </view>
+    </view>
+</view>

@@ -110,5 +110,5 @@
 .btn{
     background-color: #daa520;
     color: white;
-    border-radius: 1rpx;
+    border-radius: 7rpx;
 }

@@ -49,13 +49,13 @@
             </navigator>
 
 
-            <navigator url="/pages/liveLog/liveLog" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+            <!-- <navigator url="/pages/liveLog/liveLog" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
                 <view class="weui-cell__hd">
                     <image src="../../images/log.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
                 </view>
                 <view class="weui-cell__bd">住房记录</view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-            </navigator>
+            </navigator> -->
             <navigator url="/pages/spread/spread" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
                 <view class="weui-cell__hd">
                     <image src="../../images/spread.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
@@ -63,6 +63,15 @@
                 <view class="weui-cell__bd">推广返现</view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
             </navigator>
+
+            <navigator url="/pages/usercomment/usercomment" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__hd">
+                    <image src="../../images/comment.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">住房评价</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+
             <navigator url="/pages/phone/phone" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
                 <view class="weui-cell__hd">
                     <image src="../../images/phone.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
@@ -70,17 +79,17 @@
                 <view class="weui-cell__bd">手机绑定</view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
             </navigator>
-            <navigator url="/pages/apis/apis" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+            <!-- <navigator url="/pages/apis/apis" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
                 <view class="weui-cell__hd">
                     <image src="../../images/phone.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
                 </view>
-                <view class="weui-cell__bd">各种api</view>
+                <view class="weui-cell__bd">各种api</viewk
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-            </navigator>
+            </navigator> -->
         </view>
         <view class="weui-panel">
             <view class="weui-form-preview__ft">
-                <navigator url="/pages/logout/logout" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active" style='color:red;height:50px;'>退出登录</navigator>
+                <navigator class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active" style='color:red;height:50px;'>退出登录</navigator>
             </view>
         </view>
         </view>

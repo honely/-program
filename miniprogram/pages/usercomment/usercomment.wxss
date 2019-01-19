@@ -1,0 +1,59 @@
+.comm-body{
+    margin: 30rpx;
+}
+.weui-panel {
+    background-color: transparent;
+    /* position:fixed; */
+}
+
+.comm-type{
+    /* padding: 15rpx; */
+    height: 70rpx;
+    line-height: 70rpx;
+}
+.comm{
+    display: block;
+    float: left;
+    height: 70rpx;
+    line-height: 70rpx;
+}
+.title{
+    width: 16%;
+    height: 100%;
+}
+.star{
+    width: 68%;
+    height: 70rpx;
+    line-height: 70rpx;
+}
+.stars{
+    width: 9%;
+    line-height: 42rpx;
+    height: 42rpx;
+    padding: 5rpx;
+}
+/* 文本域评价 */
+.comm-content{
+    /* border-top: 1rpx solid #ccc; */
+    padding: 30rpx;
+}
+.more-btn{
+    padding: 50rpx;
+}
+.btn{
+    background-color: #daa520;
+    color: white;
+    border-radius: 7rpx;
+}
+.comm-content{
+
+}
+.textarea{
+    width: 97%;
+    text-indent: 2rpx;
+    padding: 10rpx;
+    height: 322rpx;
+    border: 1rpx solid #ccc;
+    border-radius: 10rpx;
+    margin: 0 auto;
+}

@@ -1,1 +1,48 @@
 /* pages/prolist/prolist.wxss */
+.prolist{
+    padding: 30rpx 30rpx 0rpx 30rpx;
+    height: 1100rpx;
+    /* background-color: yellow; */
+}
+.pro-pre{
+    width: 100%;
+    height: 200rpx;
+    /* background-color: green; */
+}
+.pro-img{
+    float: left;
+    width: 30%;
+    height: 200rpx;
+    /* background-color: yellow; */
+}
+.image{
+    width: 100%;
+    height: 200rpx;
+}
+.pro-desc{
+    width: 65%;
+    color: #707070;
+    margin: 15rpx;
+    height: 200rpx;
+    /* color: #707070; */
+    float: left;
+}
+.pro-des{
+    color: #707070;
+    font-size: 25rpx;
+}
+.pro-price{
+    color: red;
+    font-weight: bold;
+    padding: 30rpx;
+    float: right;
+}
+.more-btn{
+    padding: 6rpx;
+}
+.btn{
+    background-color: #daa520;
+    color: white;
+    border-radius: 7rpx;
+    margin-bottom: 20rpx;
+}

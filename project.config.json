@@ -29,7 +29,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 19,
+			"current": 22,
 			"list": [
 				{
 					"id": -1,
@@ -155,7 +155,25 @@
 				{
 					"id": -1,
 					"name": "房源介绍",
-					"pathName": "pages/moredesc/moredesc"
+					"pathName": "pages/moredesc/moredesc",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "住房评价",
+					"pathName": "pages/usercomment/usercomment",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "房源列表",
+					"pathName": "pages/prolist/prolist",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "房屋托管",
+					"pathName": "pages/deposit/deposit"
 				}
 			]
 		}

@@ -1,2 +1,47 @@
-<!--pages/deposit/deposit.wxml-->
-<text>pages/deposit/deposit.wxml</text>
+<view class='dp-banner'>
+    <image class='banner' src='https://xiaowugroup.com/public/web/img/dp_banners.jpg'></image>
+</view>
+<view class='chose'>
+    房东选择我们的理由
+</view>
+<view class='dp-reason'>
+    <image class='reason' src='https://xiaowugroup.com/public/web/img/dp01.png'></image>
+</view>
+<view class='dp-step'>
+    <image class='step' src='https://xiaowugroup.com/public/web/img/step.png'></image>
+</view>
+<view class="page" xmlns:wx="http://www.w3.org/1999/xhtml">
+    <view class="page__bd">
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_select">
+                <view class="weui-cell__hd weui-cell__hd_in-select-after">
+                    <view class="weui-label">地区</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <picker bindchange="bindCountryChange" value="{{countryIndex}}" range="{{countries}}">
+                        <view class="weui-select weui-select_in-select-after">{{countries[countryIndex]}}</view>
+                    </picker>
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">姓名</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入姓名"/>
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">电话</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入电话"/>
+                </view>
+            </view>
+        </view>
+       <view class='more-btn'>
+        <button class='btn'>一键托管</button>
+    </view>
+    </view>
+</view>

@@ -8,6 +8,7 @@
     "pages/moredesc/moredesc",
     "pages/moreconfig/moreconfig",
     "pages/deposit/deposit",
+    "pages/usercomment/usercomment",
   
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",

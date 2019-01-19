@@ -1,1 +1,9 @@
 /* pages/phone/phone.wxss */
+.more-btn{
+    padding: 50rpx;
+}
+.btn{
+    background-color: #daa520;
+    color: white;
+    border-radius: 7rpx;
+}

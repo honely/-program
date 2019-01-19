@@ -8,10 +8,10 @@ Page({
     inputVal: "",
 
       imgUrls: [
-          '../../images/bg.png',
-          '../../images/bgg.png',
-          '../../images/bggg.png',
-          '../../images/bgggg.png'
+          '../../images/001.png',
+          '../../images/002.png',
+          '../../images/003.png',
+          '../../images/004.png'
       ],
       indicatorDots: true,
       autoplay: true,

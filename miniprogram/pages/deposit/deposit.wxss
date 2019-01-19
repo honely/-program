@@ -1,1 +1,41 @@
 /* pages/deposit/deposit.wxss */
+.dp-banner{
+    width: 100%;
+    height: 360rpx;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+}
+.dp-reason{
+    width: 100%;
+    height: 319rpx;
+}
+.reason{
+    width: 100%;
+    height: 319rpx;
+}
+.dp-step{
+    width: 100%;
+    height: 420rpx;
+}
+.step{
+    width: 100%;
+    height: 420rpx;
+}
+.more-btn{
+    margin-top: 50rpx;
+    padding: 6rpx;
+}
+.btn{
+    background-color: #daa520;
+    color: white;
+    border-radius: 7rpx;
+    margin-bottom: 20rpx;
+}
+.chose{
+    height: 100rpx;
+    text-indent: 20rpx;
+    line-height: 100rpx;
+    font-weight: bold;
+}

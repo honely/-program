@@ -1,2 +1,89 @@
-<!--pages/prolist/prolist.wxml-->
-<text>pages/prolist/prolist.wxml</text>
+<!-- 顶部搜索 开始 -->
+<view class="weui-search-bar">
+  <view class="weui-search-bar__form">
+      <view class="weui-search-bar__box">
+          <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+          <input type="text" class="weui-search-bar__input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+          <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+              <icon type="clear" size="14"></icon>
+          </view>
+      </view>
+      <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
+          <icon class="weui-icon-search" type="search" size="14"></icon>
+          <view class="weui-search-bar__text">搜索</view>
+      </label>
+  </view>
+  <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
+</view>
+<!-- 顶部搜索 结束 -->
+<view class='prolist'>
+    <view class='pro-pre' bindtap='toDetails'>
+        <view class='pro-img'>
+            <image class='image' src='../../images/001.png'>
+            </image>
+        </view>
+        <view class='pro-desc'>
+            <view class='pro-title'>三亚湾美丽新海清新远景双房</view>
+            <view class='pro-des'>5.0 分 完美 | 125条评价 | 两居室 </view>
+            <view class='pro-price'>2700元/月</view>
+        </view>
+    </view>
+    <view class='pro-pre'>
+        <view class='pro-img'>
+            <image class='image' src='../../images/001.png'>
+            </image>
+        </view>
+        <view class='pro-desc'>
+            <view class='pro-title'>三亚湾美丽新海清新远景双房</view>
+            <view class='pro-des'>5.0 分 完美 | 125条评价 | 两居室 </view>
+            <view class='pro-price'>2700元/月</view>
+        </view>
+    </view>
+    <view class='pro-pre'>
+        <view class='pro-img'>
+            <image class='image' src='../../images/001.png'>
+            </image>
+        </view>
+        <view class='pro-desc'>
+            <view class='pro-title'>三亚湾美丽新海清新远景双房</view>
+            <view class='pro-des'>5.0 分 完美 | 125条评价 | 两居室 </view>
+            <view class='pro-price'>2700元/月</view>
+        </view>
+    </view>
+    <view class='pro-pre'>
+        <view class='pro-img'>
+            <image class='image' src='../../images/001.png'>
+            </image>
+        </view>
+        <view class='pro-desc'>
+            <view class='pro-title'>三亚湾美丽新海清新远景双房</view>
+            <view class='pro-des'>5.0 分 完美 | 125条评价 | 两居室 </view>
+            <view class='pro-price'>2700元/月</view>
+        </view>
+    </view>
+    <view class='pro-pre'>
+        <view class='pro-img'>
+            <image class='image' src='../../images/001.png'>
+            </image>
+        </view>
+        <view class='pro-desc'>
+            <view class='pro-title'>三亚湾美丽新海清新远景双房</view>
+            <view class='pro-des'>5.0 分 完美 | 125条评价 | 两居室 </view>
+            <view class='pro-price'>2700元/月</view>
+        </view>
+    </view>
+    <view class='pro-pre'>
+        <view class='pro-img'>
+            <image class='image' src='../../images/001.png'>
+            </image>
+        </view>
+        <view class='pro-desc'>
+            <view class='pro-title'>三亚湾美丽新海清新远景双房</view>
+            <view class='pro-des'>5.0 分 完美 | 125条评价 | 两居室 </view>
+            <view class='pro-price'>2700元/月</view>
+        </view>
+    </view>
+    <view class='more-btn'>
+        <button class='btn'>点击加载更多</button>
+    </view>
+</view>
