@@ -9,6 +9,8 @@
     "pages/moreconfig/moreconfig",
     "pages/deposit/deposit",
     "pages/usercomment/usercomment",
+    "pages/verify/verify",
+    "pages/oa/oa",
   
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
@@ -27,7 +29,7 @@
     "pages/account/account",
     "pages/accdetail/accdetail",
     "pages/withdraw/withdraw",
-    "pages/withlogs/withlogs",
+    "pages/paymoney/paymoney",
     "pages/address/address",
     "pages/newAddress/newAddress",
     "pages/eidtAddress/eidtAddress",

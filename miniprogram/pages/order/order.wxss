@@ -1,1 +1,64 @@
-/* pages/order/order.wxss */
+/* pages/exchange/exchange.wxss */
+.weui-flex{
+    overflow: hidden;
+}
+.weui-flex__item{
+    margin: 5px;
+    margin-left: 20rpx;
+    padding: 0 10px 0 0;
+    text-align: center;
+    height: 2.3em;
+    line-height: 2.3em;
+    float: left;
+}
+.border-right{
+     border-right: 1px solid #ccc;
+}
+.page__bd{
+    padding-bottom: 0px;
+}
+.changeNum{
+    color: red;
+    float: right;
+    font-size: 36rpx;
+}
+.weui-panel{
+    margin-top: 0px;
+}
+.mini-btn{
+    float: right;
+}
+.mini-take{
+    background-color: #Daa520;
+    color: white;
+}
+.mini-use{
+    background-color: rgb(204, 88, 80);
+    color: white;
+}
+.middle-box{
+    background-color: #ccc;
+}
+.images{
+    margin-right:.8em;
+    width:60px;
+    height:60px;
+    line-height:60px;
+    text-align:center;
+}
+.desc{
+    width: 60% !important;
+}
+.box_btn{
+    width: 20%;
+}
+.weui-media-box__bd_in-appmsg {
+    -webkit-flex:0;
+    flex:12.5;
+    min-width:5rpx;
+}
+.price{
+    color: red;
+    font-weight: bold;
+    padding: 0 10rpx 0 10rpx;
+}

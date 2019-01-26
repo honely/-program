@@ -151,3 +151,19 @@ page {
 .border-right{
     border-right: 1px solid #999;
 }
+.sign{
+    background-color:#daa520;
+    color: #F8F8F8;
+    font-size: 32rpx;
+    height: 73rpx;
+    line-height: 73rpx;
+    border-radius: 5rpx;
+}
+.signed{
+    background-color: rgb(204, 88, 80);
+    color: #F8F8F8;
+    font-size: 32rpx;
+    height: 73rpx;
+    line-height: 73rpx;
+    border-radius: 5rpx;
+}

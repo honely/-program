@@ -1,5 +1,0 @@
-.changeNum{
-    color: red;
-    float: right;
-    font-size: 36rpx;
-}

@@ -5,8 +5,8 @@
     </view>
     <view class="page__bds">
         <view class="weui-flex">
-            <view class="weui-flex__item flex__items" bindtap='withdraw'><view class="placeholder">申请提现</view></view>
-            <view class="weui-flex__item" bindtap='withlogs'><view class="placeholder">提现记录</view></view>
+            <view class="weui-flex__item flex__items" bindtap='paymoney'><view class="placeholder">充值押金</view></view>
+            <view class="weui-flex__item" bindtap='withdraw'><view class="placeholder">申请提现</view></view>
         </view>
     </view>
     <view class="weui-panel weui-panel_access">

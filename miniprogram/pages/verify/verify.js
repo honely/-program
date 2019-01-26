@@ -1,4 +1,4 @@
-// pages/withlogs/withlogs.js
+// pages/verify/verify.js
 Page({
 
     /**

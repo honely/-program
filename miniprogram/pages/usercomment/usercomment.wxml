@@ -69,13 +69,13 @@
                     </view>
                 </view>
             </view>
-            <view class='comm-content'>
-                <textarea class='textarea' placeholder="来说说你的住房体验吧！" auto-focus/>
+            <view class='comm-contenta'>
+                <textarea class='textarea' placeholder="来说说你的住房体验吧！"/>
             </view>
-            <view>
+            <!-- <view>
                 <button class='btn' bindtap="uploadimg">点击选择上传图</button>
             </view>
-            <image src='{{source}}' style='width:600rpx; height:600rpx' />
+            <image src='{{source}}' style='width:600rpx; height:600rpx' /> -->
             <!-- 发布按钮 -->
             <view class='more-btn'>
                 <button class='btn'>点击发布评论</button> 

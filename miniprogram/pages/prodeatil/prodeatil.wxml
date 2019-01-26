@@ -9,7 +9,7 @@
                     duration="{{duration}}"
                     style='height: 261px' 
                 >
-                    <block wx:for="{{imgUrls}}">
+                    <block wx:for="{{house.h_img}}">
                         <swiper-item>
                         <image src="{{item}}" class="slide-image" />
                         </swiper-item>
@@ -17,7 +17,7 @@
                 </swiper>
             </view>
             <view class="weui-article__h1">
-                <view class='proTitle'>天润佳苑 两室一厅一卫整租
+                <view class='proTitle'>{{house.h_name}}
                 </view>
                 <view class='shareIcon'>
                     <button class='shareBtn' open-type='share'>

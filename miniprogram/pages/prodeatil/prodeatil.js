@@ -1,3 +1,4 @@
+const app = getApp()
 Page({
     data: {
         imgUrls: [
@@ -19,6 +20,21 @@ Page({
             height: 30
         }],
     }, 
+    onLoad: function (options) {
+        var h_id = options.h_id;
+        var that = this;
+        // 房源详情
+        wx.request({
+            url: app.globalData.baseUrl + "/api/banner/houseDetail?h_id=" + h_id,
+            success: function (res) {
+                console.log(res);
+                that.setData({
+                    house: res.data.data
+                })
+            }
+        })
+
+    },
     // 提交订单
     toOrder: function (event) {  //点击输出outer view bindtap
         console.log(event);

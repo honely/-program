@@ -25,9 +25,9 @@
     interval="{{interval}}"
     duration="{{duration}}"
     >
-        <block wx:for="{{imgUrls}}">
+        <block wx:for="{{imgUrls}}" wx:key="{{index}}">
             <swiper-item>
-            <image src="{{item}}" class="slide-image" width="355" height="150" />
+            <image src="{{item.ba_img}}" alt="{{item.ba_title}}" class="slide-image" width="355" height="250" />
             </swiper-item>
         </block>
     </swiper>
@@ -48,30 +48,12 @@
 <!--热门房源 开始 -->
 <view class='hotPro'>
     <view class='title'>热门房源</view>
-    <view class='pro' bindtap='toDetails'>
-        <image class='imgs' src='../../images/001.png'></image>
-        <view class='proTitle'>三亚地中海热带风情浪漫两室一厅</view>
-        <view class='proDesc'>5.0分完美！123条评价|两居室</view>
-        <view class='price'>￥1580</view>
-    </view>
-    <view class='pro'>
-    <image class='imgs' src='../../images/002.png'></image>
-    <view class='proTitle'>三亚地中海热带风情浪漫两室一厅</view>
-        <view class='proDesc'>5.0分完美！123条评价|两居室</view>
-        <view class='price'>￥1580</view>
-    </view>
-    <view class='pro'>
-    <image class='imgs' src='../../images/003.png'></image>
-    <view class='proTitle'>三亚地中海热带风情浪漫两室一厅</view>
-        <view class='proDesc'>5.0分完美！123条评价|两居室</view>
-        <view class='price'>￥1580</view>
-    </view>
-    <view class='pro'>
-    <image class='imgs' src='../../images/004.png'></image>
-    <view class='proTitle'>三亚地中海热带风情浪漫两室一厅</view>
-        <view class='proDesc'>5.0分完美！123条评价|两居室</view>
-        <view class='price'>￥1580</view>
-    </view>
+    <navigator wx:for="{{houseInfo}}" wx:key="{{index}}" url="/pages/prodeatil/prodeatil?h_id={{item.h_id}}"   class='pro'>
+        <image class='imgs' src='{{item.h_house_img}}'></image>
+        <view class='proTitle'>{{item.h_name}}</view>
+        <view class='proDesc'>5.0分完美！123条评价|{{item.h_type}}</view>
+        <view class='price'>￥{{item.h_rent}}</view>
+    </navigator>
 </view>
 <view class='btn'>
     <button bindtap='toList' class="moreBtn" >查看更多</button>

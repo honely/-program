@@ -44,6 +44,7 @@ swiper image{
 }
 .hotPro{
    width: 100%;
+   display: block;
 }
 .pro{
     width: 46%;
@@ -71,6 +72,9 @@ swiper image{
 }
 .btn{
     padding: 15rpx;
+    display: block;
+    width: 100%;
+    float: left;
 }
 .moreBtn{
     background-color:#daa520;

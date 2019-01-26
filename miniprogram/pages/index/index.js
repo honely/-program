@@ -6,13 +6,19 @@ Page({
     //搜索框
     inputShowed: false,
     inputVal: "",
-
-      imgUrls: [
-          '../../images/001.png',
-          '../../images/002.png',
-          '../../images/003.png',
-          '../../images/004.png'
-      ],
+    imgUrls:[{
+            ba_img: '../../images/q1.png',
+            ba_title: 'rent'
+        },
+        {
+            ba_img: '../../images/q1.png',
+            ba_title: 'rent'
+        },
+        {
+            ba_img: '../../images/q1.png',
+            ba_title: 'rent'
+        }
+    ],
       indicatorDots: true,
       autoplay: true,
       interval: 5000,
@@ -35,6 +41,30 @@ Page({
       ],
     
   },
+    onLoad: function (options) {
+        var that = this;
+        //banner图
+        wx.request({
+            url: app.globalData.baseUrl+"/api/banner/miniBanner",
+            success: function (res) {
+                console.log(res.data.data);
+                that.setData({
+                    imgUrls: res.data.data
+                })
+            }
+        }),
+        // 首页热门房源
+        wx.request({
+        url: app.globalData.baseUrl + "/api/banner/indexHouse",
+            success: function (res) {
+                console.log(res.data.data);
+                that.setData({
+                    houseInfo: res.data.data
+                })
+            }
+        })
+            
+        },
   showInput: function () {
     this.setData({
       inputShowed: true
@@ -61,19 +91,22 @@ Page({
             url: '/pages/prodeatil/prodeatil'
         })
     },
+    // 热门房源列表
     toList:function(){
         wx.navigateTo({
-            url: '/pages/prolist/prolist'
+            url: '/pages/prolist/prolist?type=1'
         })
     },
+    // 短租房源列表
     rent:function(){
         wx.navigateTo({
-            url: '/pages/prolist/prolist'
+            url: '/pages/prolist/prolist?type=2'
         })
     },
+    // 月租房源列表
     monthrent: function () {
         wx.navigateTo({
-            url: '/pages/prolist/prolist'
+            url: '/pages/prolist/prolist?type=3'
         })
     },
     deposit: function () {

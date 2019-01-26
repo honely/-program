@@ -7,8 +7,12 @@
                 </view>
                 <view class="weui-cell__bd">
                     <view>{{userInfo.nickName}}</view>
-                    <view style="font-size: 13px;color: #888888;">手机号：17691074991</view>
+                    <!-- 若用户绑定手机则显示手机号信息，若不绑定，则不显示 -->
+                    <!-- <view style="font-size: 13px;color: #888888;">手机号：17691074991</view>W -->
                 </view>
+                <!-- 签到功能，若当天未签到，按钮显示签到，若已签到则按钮显示已签 -->
+                <button wx:if="{{isSign}}" bindtap='sign' class='sign'>签到</button>
+                <button wx:else bindtap='signed' class='signed'>已签</button>
             </view>
             <view class="weui-flex">
             <view class="weui-flex__item">
@@ -64,13 +68,21 @@
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
             </navigator>
 
-            <navigator url="/pages/usercomment/usercomment" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+            <navigator url="/pages/oa/oa" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__hd">
+                    <image src="../../images/spread.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">授权登录</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+
+            <!-- <navigator url="/pages/usercomment/usercomment" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
                 <view class="weui-cell__hd">
                     <image src="../../images/comment.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
                 </view>
                 <view class="weui-cell__bd">住房评价</view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-            </navigator>
+            </navigator> -->
 
             <navigator url="/pages/phone/phone" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
                 <view class="weui-cell__hd">

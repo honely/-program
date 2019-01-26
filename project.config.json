@@ -29,7 +29,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 22,
+			"current": 23,
 			"list": [
 				{
 					"id": -1,
@@ -173,7 +173,13 @@
 				{
 					"id": -1,
 					"name": "房屋托管",
-					"pathName": "pages/deposit/deposit"
+					"pathName": "pages/deposit/deposit",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "交纳押金",
+					"pathName": "pages/paymoney/paymoney"
 				}
 			]
 		}

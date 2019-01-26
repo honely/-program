@@ -45,9 +45,6 @@
     color: white;
     border-radius: 7rpx;
 }
-.comm-content{
-
-}
 .textarea{
     width: 97%;
     text-indent: 2rpx;
@@ -56,4 +53,8 @@
     border: 1rpx solid #ccc;
     border-radius: 10rpx;
     margin: 0 auto;
+}
+.comm-contenta{
+    padding-left: 30rpx;
+    padding-right: 30rpx;
 }

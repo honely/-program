@@ -1,0 +1,31 @@
+.more-btn{
+    padding: 50rpx;
+}
+.btn{
+    background-color: #daa520;
+    color: white;
+    border-radius: 7rpx;
+}
+.money-card{
+    margin: 30rpx;
+    height: 300rpx;
+    border-radius: 30rpx;
+    background-color: #daa520;
+}
+.card-title{
+    height: 120rpx;
+    margin: 50rpx 20rpx;
+    color: #070707;
+    line-height: 120rpx;
+    padding-left: 50rpx;
+    padding-top: 20rpx;
+    font-size: 50rpx;
+}
+.card-desc{
+    height: 120rpx;
+    color: #707070;
+    margin: 20rpx 20rpx;
+    line-height: 120rpx;
+    padding-left: 50rpx;
+    font-size: 29rpx;
+}

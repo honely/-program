@@ -14,14 +14,16 @@ Page({
     onLoad: function (options) {
 
     },
+    // 发起提现
     withdraw:function(){
         wx.navigateTo({
             url: '/pages/withdraw/withdraw'
         })
     }
-    , withlogs:function(){
+    // 押金充值
+    , paymoney:function(){
         wx.navigateTo({
-            url: '/pages/withlogs/withlogs'
+            url: '/pages/paymoney/paymoney'
         })
     }
 })

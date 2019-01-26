@@ -1,0 +1,13 @@
+<view class='page'>
+    <view class='money-card'>
+        <view class='card-title'>
+            交199元押金
+        </view>
+        <view class='card-desc'>
+            可退
+        </view>
+    </view>
+    <view class='more-btn'>
+        <button class='btn' bindtap='payMoney'>立即支付</button>
+    </view>
+</view>
